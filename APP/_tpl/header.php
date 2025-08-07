@@ -2,7 +2,7 @@
 <div id="page-menu" class="sticky-page-menu">
     <div id="page-menu-wrap">
         <div class="container clearfix">
-            <div class="menu-title"><span>CBA Standards</span></div>
+            <div class="menu-title"><span>CBA Standards Test</span></div>
 
             <?php include __DIR__."/nav.php"; ?>
 
