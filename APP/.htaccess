@@ -1,0 +1,8 @@
+# Enable URL rewriting
+RewriteEngine on
+
+# Redirect the root URL (e.g., example.com/) to /home/introduction.php
+RewriteRule ^$ /home/introduction.php [L]
+
+# Handle 404 (Not Found) errors by showing /home/introduction.php
+ErrorDocument 404 /
